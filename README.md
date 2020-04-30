@@ -1,1 +1,3 @@
 # SVM_RBF
+A program references from https://blog.csdn.net/sun_shengyun/article/details/55669160
+这个代码使用了sklearn的SVC包，所以核函数和解优化问题的smo算法都不需要自己写，数据部分则使用了sklearn的datasets,最后可以生成比较好的线性不可分的离散点。最后的过程只需要自己进行参数的调整，即惩罚系数C与Gamma。最后会发现选择不同的C和Gamma对分类的效果和泛化性有着很大的影响。通过在网上查阅资料发现可以通过grid_search的方法寻找到最好的参数组合。
